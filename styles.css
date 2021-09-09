@@ -1,0 +1,221 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+body {
+}
+
+.navbar img {
+  width: 268px;
+  height: 33px;
+}
+#aboutuss {
+  color: #00b39b;
+}
+.navbar {
+  display: flex; /* naplique ale parent bech nhot sghar fi nefs ligne */
+  justify-content: space-around; /* bech nba3id el sghar ale b3Athom */
+}
+.list ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+ul .departments {
+  display: none;
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul ul {
+  position: absolute;
+}
+nav ul {
+  position: relative;
+}
+header nav .list ul li a {
+  color: #ababab;
+  display: block;
+  text-decoration: none;
+  padding: 0 0.6em;
+  background-color: transparent;
+  display: inline-block;
+}
+.departments {
+  width: 150%;
+}
+.departments li a:hover {
+  background-color: gray;
+  color: #00b39b;
+}
+header nav .list ul li a:hover {
+  color: #00b39b;
+}
+#about a {
+  color: #00b39b;
+}
+.partie1 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.partie1 h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.paragraphe {
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+.partie1 {
+  margin: 6% 8%;
+}
+.paragraphe p {
+  width: 48%;
+}
+.partie2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 6% 8%;
+}
+.partie2 .box1 {
+  background: #00ccb1;
+  width: 30%;
+  height: 100%;
+}
+.partie2 .box2 {
+  background: blue;
+  width: 30%;
+  height: 100%;
+}
+.partie2 .box3 {
+  background: black;
+  width: 30%;
+  height: 100%;
+}
+.partie2.box1 img {
+  border: 0;
+  margin-bottom: -0.4em;
+}
+.partie2 h1,
+h2,
+label {
+  display: block;
+  letter-spacing: -0.3px;
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+select {
+  display: inline-block;
+  text-align: start;
+  position: relative;
+  width: 50%;
+  height: 40px;
+  background: transparent;
+  padding: 0 2% 0 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.partie3 h1 :hover {
+  color: #00b39b;
+}
+.partie3 h1 {
+  width: 33%;
+  color: #00b39b;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding: 0 2% 0 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  display: block;
+}
+.partie3 {
+  margin: 6% 8%;
+  display: flex;
+  justify-content: space-around;
+}
+.partie3 ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.partie3 a {
+  text-decoration: none;
+  color: #3d83df;
+  outline: 0%
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+}
+.partie4 {
+  display: flex;
+}
+.partie4 .separation {
+  margin: 6% 8%;
+  display: flex;
+}
+.boxgauch1,
+.boxgauch2 {
+  background: red;
+  width: 350px;
+  flex-wrap: wrap;
+  padding: -1% 0;
+}
+.boxdroit2,
+.boxdroit1 {
+  background: gray;
+  width: 300px;
+  flex-wrap: wrap;
+  padding: -1% 0%;
+}
+
+.partiedroit {
+  width: 40%;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: -5% 2%;
+  
+}
+
+.partie4 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-top: 5%;
+  border: O;
+  padding: 1% 0;
+}
+.partie4 h3,
+p {
+  text-align: center;
+}
+.partie4 h3 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
